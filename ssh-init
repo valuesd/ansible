@@ -46,4 +46,4 @@ ssh_port=22
     - name: "7.清理临时数据"
       shell: rm -rf  ~/.ssh/rsa && echo "结束"
       
- [root@ansible ~]# ansible-playbook -i host init-ssh.yml
+[root@ansible ~]# ansible-playbook -i host init-ssh.yml
